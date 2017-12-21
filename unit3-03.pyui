@@ -1,0 +1,85 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{230, 254}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "rock_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "rock",
+          "uuid" : "1D6E8C9B-6112-43C6-A90F-CA0513455F9A",
+          "class" : "Button",
+          "name" : "rock_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{108, 254}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "paper_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "paper",
+          "uuid" : "DB630DA7-D654-4218-8269-367396C3C0B9",
+          "class" : "Button",
+          "name" : "paper_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{376, 254}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "sizers_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "sizers",
+          "uuid" : "48DDE591-7D88-4859-84BC-4AA7C3C2AC86",
+          "class" : "Button",
+          "name" : "sizers_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{196, 140}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "8D5FF565-E25D-4A16-AB79-18707184DAEE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_lable",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
